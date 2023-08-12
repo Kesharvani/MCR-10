@@ -1,0 +1,14 @@
+.dashboard_container {
+  display: flex;
+}
+.dashboard_card_dash {
+  display: flex;
+  gap: 1rem;
+  padding-left: 1rem;
+  flex: 3;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.not_clickable {
+  pointer-events: none;
+}

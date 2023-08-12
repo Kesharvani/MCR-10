@@ -1,0 +1,17 @@
+.menu_items {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-color: #4a4a4a;
+  padding: 3rem;
+  margin: 0px;
+  height: 100%;
+}
+.menu_items > li {
+  color: white;
+  list-style: none;
+  cursor: pointer;
+}
+.bold_style {
+  font-weight: bold;
+}

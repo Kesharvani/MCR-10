@@ -1,0 +1,33 @@
+.list_container {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+.list_header > h2 {
+  margin: 0px;
+}
+select {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+table {
+  border: 1px solid;
+}
+th {
+  background-color: lightgray;
+  padding: 0.7rem;
+}
+
+.add_new_product_btn {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: lightseagreen;
+  color: white;
+  border-radius: 0.3rem;
+}
